@@ -1,4 +1,4 @@
-# MiniProject
+# MiniProject on Webscraping
   This project is aimed to provide parallel phone products, their images, hyperlinks and their prices from both amazon and flipkart by webscraping the 2 websites. 
 
 # Installations required to run this project:
@@ -17,3 +17,10 @@
   6. Type "iphone" and enter
   7. It should give you 10 results from both flipkart and amazon
   8. Apply filters and enjoy.
+
+# Other Info
+  - Templates sub-folder has all the html pages
+  - Static sub-folder has all the CSS files and images
+  - app.py is the main flask file
+  - BS4Azn.py is the amazon web scraper
+  - BS4fpkrt.py is the flipkart web scraper
