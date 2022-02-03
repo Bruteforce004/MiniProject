@@ -15,12 +15,14 @@
 
   <title> Sell me cell </title>
 
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bootstrap.css') }}" />
 
   <!--owl slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
   <!-- font awesome style -->
   <!-- <link href="{{ url_for('static', filename='font-awesome.min.css') }}" rel="stylesheet" /> -->
@@ -48,7 +50,8 @@
             </span>
           </a>
 
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class=""> </span>
           </button>
 
@@ -57,7 +60,7 @@
               <li class="nav-item active">
                 <a class="nav-link" href="{{url_for('home')}}">Home <span class="sr-only"></span></a>
               </li>
-            <li class="nav-item">
+              <li class="nav-item">
                 <a class="nav-link" href="{{url_for('about')}}"> About us</a>
               </li>
               <li class="nav-item">
@@ -75,19 +78,20 @@
       </div>
     </header>
     <!-- end header section -->
-        
+
     <div class="container text-center text-white" style="margin-top: 10%;">
-      <div class="detail-box">            
+      <div class="detail-box">
         <div class="info_form">
           <h1>
             Find the right tech for you
           </h1>
           <br>
           <form method="post">
-            <input type="text" style="width: 500px;" placeholder="Enter the model name" class="form__input" name="search_string"/>
+            <input type="text" style="width: 500px;" placeholder="Enter the model name" class="form__input"
+              name="search_string" />
             <br><br>
-            <button class="button-18" type="submit" value="submit" role="button">Search!</button> 
-          </form>         
+            <button class="button-18" type="submit" value="submit" role="button">Search!</button>
+          </form>
         </div>
         <br>
         <button class="button-18" type="submit" value="submit" role="button">
@@ -95,7 +99,7 @@
         </button>
       </div>
     </div>
-  </div>             
+  </div>
 
   <!-- info section -->
   <section class="info_section">
@@ -107,12 +111,12 @@
           </h5>
           <p>
             We are a team of 4 young aspiring developers making a website to learn about
-            the basics of HTML CSS and other relavent technologies. This web site was developed as a 
+            the basics of HTML CSS and other relavent technologies. This web site was developed as a
             course requirement mini-project. We have used technologies like python and JS in addition to
-            HTML and CSS to service as the backbone of this project.  
+            HTML and CSS to service as the backbone of this project.
           </p>
         </div>
-       
+
         <div class="col-md-4 col-lg-3 mx-auto info_col" style="position: relative; left: 250px;">
           <h5>
             For any queries
@@ -160,8 +164,9 @@
   <!-- jQery -->
   <script src="{{ url_for('static', filename='jquery-3.4.1.min.js') }}"></script>
   <!-- popper js -->
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
   <!-- bootstrap js -->
   <script src="{{ url_for('static', filename='bootstrap.js') }}"></script>
   <!-- owl slider -->
